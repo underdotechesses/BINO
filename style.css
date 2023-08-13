@@ -165,7 +165,7 @@ nav {
     display: flex;
 }
 
-.how-we-do {
+.what-we-do {
     font-size: 1.3em;
 }
 
@@ -251,4 +251,22 @@ nav {
     height: 100%;
     margin-top: 6em;
     right: 40em;
+}
+
+.fourth-article {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-article .line-13 {
+    height: 100%;
+    margin-right: 8em;
+}
+
+.fourth-article-first-column-img {
+    width: 10em;
+    position: absolute;
+    margin-top: 10em;
+    left: 10%;
 }
