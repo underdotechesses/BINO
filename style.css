@@ -267,6 +267,53 @@ nav {
 .fourth-article-first-column-img {
     width: 10em;
     position: absolute;
-    margin-top: 10em;
+    margin-top: 5em;
     left: 10%;
+    border-radius: 15px;
+}
+
+.fourth-article-second-column-line {
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.fourth-article-second-column-div {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.fourth-article-second-column-div-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fourth-article-second-column-div-p {
+    color: white;
+    font-size: 1.5em;
+    margin-left: 1em;
+}
+
+.fourth-article-second-column-div-link {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    height: 2em;
+    width: 10em;
+    margin-right: 2em;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding-top: 0.7em;
+    text-align: center;
+}
+
+.fourth-article-second-column-img {
+    border-radius: 15px;
+}
+
+.fourth-article-second-column-div-link img {
+    margin-left: 1em;
+    margin-top: -0.8em;
+    width: 1em;
 }
