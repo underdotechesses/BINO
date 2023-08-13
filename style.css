@@ -196,16 +196,12 @@ nav {
     border: 1px solid black;
 }
 
-.second-column-div {
+.second-column-div,
+.first-column-div-1,
+.first-column-div-2,
+.second-column-div-1,
+.second-column-div-2 {
     display: flex;
-}
-
-.first-column-div-1 {
-    display: flex;
-}
-
-.first-column-div-1 div {
-    margin-left: 2em;
 }
 
 .read-more-link {
@@ -216,13 +212,17 @@ nav {
 }
 
 .branding,
-.marketing {
+.marketing,
+.ui,
+.content {
     font-size: 2.3em;
     width: 10em;
 }
 
 .first-column-div-1-lorem,
-.first-column-div-2-lorem {
+.first-column-div-2-lorem,
+.second-column-div-1-lorem,
+.second-column-div-2-lorem {
     font-size: 1.2em;
     width: 12em;
 }
@@ -233,15 +233,15 @@ nav {
     position: absolute;
 }
 
-.first-column-div-2 {
-    display: flex;
-}
-
-.first-column-div-2 div {
+.first-column-div-1 div,
+.first-column-div-2 div,
+.second-column-div-1 div,
+.second-column-div-2 div {
     margin-left: 2em;
 }
 
-.marketing-div {
+.marketing-div,
+.content-div {
     margin-top: 2em;
 }
 
