@@ -1,0 +1,254 @@
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap");
+
+body {
+    /*width: 1440px;*/
+    height: 6137px;
+    margin: 4% 8%;
+    padding: 2% 4%;
+    border: solid 2px black;
+    font-family: "Syne", sans-serif;
+}
+
+nav {
+    width: 0.8125;
+    /*width: 1170px;*/
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu--div {
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu--div a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu--div a:hover {
+    text-decoration: underline;
+}
+
+.logo {
+    width: 140px;
+    height: 39px;
+    margin-top: 10px;
+}
+
+.lets--talk--div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lets--talk--div div {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.lets--talk--div a {
+    text-decoration: none;
+    color: white;
+}
+
+.lets--talk--div a div {
+    background-color: black;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.lets--talk--div a div:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.lets-talk-lines {
+    margin-top: 1em;
+}
+
+.social--div {
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-article {
+    margin-top: 5em;
+}
+
+.first-img {
+    width: 30em;
+    border-radius: 15px;
+}
+
+.first-article-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.first-article-div svg {
+    margin-top: 5em;
+    margin-right: 10em;
+}
+
+.first-article .digital {
+    text-align: center;
+    width: 8em;
+    position: absolute;
+    margin-left: 7em;
+    font-size: 4em;
+    top: 8em;
+}
+
+.first-page-div {
+    display: flex;
+    margin-top: 15em;
+}
+
+.scroll {
+    margin-top: 10em;
+    width: 5em;
+}
+
+.persons-img {
+    border-radius: 15px;
+}
+
+.first-lorem {
+    font-size: 1.5em;
+}
+
+.learn-more-link {
+    text-decoration: none;
+    color: white;
+}
+
+.learn-more-link div:hover {
+    color: black;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.learn-more-link div {
+    padding-top: 1em;
+    text-align: center;
+    width: 10em;
+    height: 2.5em;
+    background-color: black;
+    border-radius: 15px;
+    margin-top: 2em;
+}
+
+.group-img {
+    margin-top: 5em;
+    position: absolute;
+    width: 7em;
+    left: 12em;
+}
+
+.under-line {
+    margin-top: 7em;
+}
+
+.second-article {
+    margin-top: 5em;
+    display: flex;
+    justify-content: space-between;
+}
+
+.third-article {
+    margin-top: 5em;
+    display: flex;
+}
+
+.how-we-do {
+    font-size: 1.3em;
+}
+
+.unlock-p {
+    width: 10em;
+    font-size: 4em;
+}
+
+.second-lorem {
+    width: 22em;
+    font-size: 1.2em;
+}
+
+.our-services-link {
+    text-decoration: none;
+    width: 10em;
+    display: flex;
+    justify-content: space-between;
+    padding: 2em;
+    color: white;
+    background-color: black;
+    border-radius: 15px;
+}
+
+.our-services-link:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.second-column-div {
+    display: flex;
+}
+
+.first-column-div-1 {
+    display: flex;
+}
+
+.first-column-div-1 div {
+    margin-left: 2em;
+}
+
+.read-more-link {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    width: 10em;
+}
+
+.branding,
+.marketing {
+    font-size: 2.3em;
+    width: 10em;
+}
+
+.first-column-div-1-lorem,
+.first-column-div-2-lorem {
+    font-size: 1.2em;
+    width: 12em;
+}
+
+.first-svg {
+    margin-top: 3em;
+    margin-bottom: 3em;
+    position: absolute;
+}
+
+.first-column-div-2 {
+    display: flex;
+}
+
+.first-column-div-2 div {
+    margin-left: 2em;
+}
+
+.marketing-div {
+    margin-top: 2em;
+}
+
+.second-svg {
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    margin-top: 6em;
+    right: 40em;
+}
